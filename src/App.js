@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import MoleContainer from './components/MoleContainer';
+import MoleContainer from './components/MoleContainer'
+import './App.css'
 
 function App() {
-  const [score, setScore] = useState(0)
+  let [score, setScore] = useState(0)
   
   const createMoleHill=()=>{
     let hills =[]
